@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+
+  .tab-container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    direction: rtl;
+  }
+
+  .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    direction: rtl;
+  }
+
+  .tab button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+
+  .tab button:hover {
+    background-color: #ddd;
+  }
+
+  .tabcontent {
+    display: none;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+  }
+
+  .btn-light {
+    color: #0056b3;
+    padding-right: 20px;
+  }
+
+  .input-container input,
+  .input-container select,
+  .input-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    direction: rtl;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  /* ////////////////////lobana////////////////////////////////////// */
+  /* Style the tab container */
+  .tab-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  #searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .autocomplete-results {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+
+  .autocomplete-results li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .autocomplete-results li:hover {
+    background-color: #f2f2f2;
+  }
+
+  /* Style the tab buttons */
+  .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .tablinks {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    border-radius: 8px 8px 0 0;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+  }
+
+  .tablinks.active {
+    background-color: #ccc;
+  }
+
+  /* Style recipient search input and combobox */
+  #recipientSearch {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  /* Style the body with a background color and center content */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Style the form container */
+  form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Style headings */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* Style labels */
+
+  label {
+    margin: 17px !important;
+  }
+
+  .input-container label {
+    width: 20%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: right;
+  }
+
+  /* Style input fields */
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  /* Style select elements */
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  /* Style submit button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  /* Style submit button */
+  input[type="text"] {
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .amount-tap-container {
+    position: relative;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .p-5 {
+    padding: 15px;
+  }
+  .amount-tap-content {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;
+  }
+  .ml-100 {
+    margin-left: 100px;
+  }
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+  .d-inline {
+    display: inline;
+  }
+  .amount-tap-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    bottom: 20px;
+    right: 20px;
+  }
+  .download-btn {
+    background-color: green;
+  }
+  .copy-btn {
+    background-color: rgb(10, 133, 150);
+  }
+  .print-btn {
+    background-color: rgb(10, 133, 150);
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .text-gray {
+    color: gray;
+  }
+
+  .text-blue {
+    color: blue;
+  }
+
+  .text-red {
+    color: red;
+  }
+  .text-center {
+    text-align: center;
+  }
+
+  .w-22 {
+    width: 22% !important;
+  }
+  .w-35 {
+    width: 35% !important;
+  }
+  .w-70 {
+    width: 80% !important;
+  }
+  .source {
+    margin-bottom: 20px;
+  }
+
+  .w-18 {
+    width: 18% !important;
+  }

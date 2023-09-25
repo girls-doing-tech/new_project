@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.tab-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  direction: rtl;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  direction: rtl;
+}
+
+.tab button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tabcontent {
+  display: none;
+}
+
+.input-container {
+ display: flex;
+  justify-content: stretch;
+  align-items: center;
+  margin-bottom: 20px;
+ /* direction: rtl;*/
+}
+
+.input-container label {
+  font-weight: bold;
+  width:30%;
+  margin-left: 20px;
+  text-align: right;
+}
+
+.input-container input,
+.input-container select,
+.input-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: right;
+  direction: rtl;
+}
+
+.amount-tap-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.amount-tap-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.amount-tap-buttons button {
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.amount-tap-buttons button:hover {
+  background-color: #147bcd;
+}
+
+textarea {
+  resize: vertical;
+}
